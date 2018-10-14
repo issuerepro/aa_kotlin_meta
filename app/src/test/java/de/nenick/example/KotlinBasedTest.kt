@@ -20,6 +20,6 @@ class KotlinBasedTest {
     fun androidAnnotationsCompile() {
         val activity = MainActivity_()
         // following line does not compile
-//        activity.onViewChanged(null)
+       activity.onViewChanged(null)
     }
 }
